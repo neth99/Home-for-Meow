@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Lucida Sans";
+    
+}
+
+body{
+    background:rgb(250, 179, 191);
+
+}
+nav{
+    display:flex;
+    width:100%;
+    margin:auto;
+    padding:20px o;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+nav img{
+    height:50px;
+    width|:50px;
+    position::first-line;
+    top:10%;
+}
+
+nav img.hover{
+    color:red;
+}
+
+nav ul{
+    background-color: aquamarine;
+
+}
+
+
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:10px 20px;
+
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight:bolder;
+
+}
+
+nav ul li a:hover{
+    color:blueviolet;
+}
+
+.header{
+    padding-top:30px;
+    color:#444;
+    font-size:20px;
+    margin:auto;
+    line-height:50px;
+    text-align:center;
+}
+
+.sub{
+    max-width:1200px;
+    margin:auto;
+    padding:48px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.teams{
+    margin:10px;
+    padding:22px;
+    right:35px;
+    max-width:50%;
+    cursor:pointer;
+    transition:border-box;
+    
+}
+
+.teams:hover{
+background-color:rgb(78, 74, 74);
+border-radius:12px;
+}
+
+.teams img{
+    width:400px;
+    height:400px;
+    display:flex;
+    border-radius:45px;
+}
+.name{
+    padding:12px;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.title{
+    font-style:italic;
+    font-size:25px;
+    color:rgb(51, 37, 145);
+    text-align:center;
+    
+}
+
+.about{
+    margin:10px;
+    font-size:20px;
+    font-weight:lighter;
+    color:black;
+    text-align:center;
+}
+
+.Social{
+    margin: 15px;
+    text-align:center;
+   top:15px;
+}
+
+.Social a{
+    display:inline-block;
+    height:30px;
+    width:30px;
+}
+
+.Social a i {
+    color:rgb(122, 110, 122);
+    padding-right:10px;
+     size:45px;
+     font-size:24px;
+}
+
+.Social a:hover{
+    color:red;
+}
