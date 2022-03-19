@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Fredoka', sans-serif;
+}
+.header{
+    min-height:35vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("cats12.jpg");
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    text-align:center;
+    color:white;
+
+}
+
+.header h1{
+    margin-top:0px;
+    font-size: 35px;
+}
+
+nav{
+    display:flex;
+    padding:2% 6%;
+    justify-content:space-between;
+    align-items:center;
+}
+nav img{
+width:150px;
+
+}
+.links{
+    flex:1;
+    text-align:right;
+
+}
+.links ul li{
+    list-style:none;
+    display:inline-block;
+    padding:8px 12px;
+    position:relative;
+
+}
+.links ul li a{
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+    
+}
+.links ul li::after{
+content:'';
+width:0%;
+height:2px;
+display:block;
+margin:auto;
+background:#f44336;
+transition:0.5s;
+}
+
+.links ul li:hover::after{
+width:100%;
+}
+
+
+.map{
+    display:flex;
+    width:100%;
+    margin-top:2%;
+    margin-bottom:8%;
+    display:flex;
+    justify-content:space-between;
+    height:50vh;
+}
+
+.area{
+    
+    flex-basis:50%;
+    padding-left:70px;
+    padding-bottom:70px;
+}
+
+.area h1{
+    color:#f44336;
+}
+.con{
+    width:100%;
+    height:20vh;
+    padding-top:5%;
+    background-image:linear-gradient(rgba(0,8,51,0.9),rgba(16, 21, 51, 0.9)),url("CFC-website-banner-1400x545.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.search{
+    width:100%;
+    height:40px;
+    max-width:500px;
+    background:rgba(255,255,255,0.2);
+    display:flex;
+    align-items:center;
+    border-radius:60px;
+    padding:10px 10px;
+    backdrop-filter:blur(4px)saturate(180px);
+
+
+}
+.search input{
+    background:transparent;
+    flex:1;
+    border:0;
+    outline:none;
+    padding:10px 10px;
+    font-size:20px;
+    color:#0cebeb;
+
+}
+::placeholder{
+    color:#cacfff;
+
+}
+h1{
+    color:white;
+}
+
+ .search .fa{
+     width: 60px;
+     font-size:25px;
+     align-items: center;
+     border:0;
+    
+ }
+ .fa-search {
+  
+    color: white;
+  }
+  .footer{
+    width:100%;
+    text-align:center;
+    padding:30px 0;
+    background-color:#fdab85;
+
+}
+
+.footer h4{
+    margin-bottom:25px;
+    margin-top:20px;
+    font-weight:600px;
+}
+span{
+    color:red;
+    font-weight: 450px;;
+    
+}
+.social .fa{
+    padding: 20px 20px;
+    margin:10px 15px;
+    cursor:pointer;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.social .fa:hover{
+    opacity: 0.7;
+    border-radius: 50%;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-heart-o{
+      color: #f44336;
+  }
